@@ -1,1 +1,1 @@
-# CPSC--471-Assignment-1---FTP-
+# CPSC-471-Assignment-1-FTP
