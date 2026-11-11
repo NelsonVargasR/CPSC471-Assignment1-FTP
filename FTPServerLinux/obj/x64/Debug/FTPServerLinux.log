@@ -1,0 +1,15 @@
+﻿  Starting remote build
+  Compiling sources:
+  server.cpp
+C:\Users\dumbx\source\repos\Assignment1TCPSocket\FTPServerLinux\server.cpp(786,31): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+C:\Users\dumbx\source\repos\Assignment1TCPSocket\FTPServerLinux\server.cpp(786,31): warning :   786 |     dataAddr.sin_port = htons(dataPort);
+C:\Users\dumbx\source\repos\Assignment1TCPSocket\FTPServerLinux\server.cpp(786,31): warning :       |                               ^~~~~~~~
+  TCPLib.cpp
+C:\Users\dumbx\source\repos\Assignment1TCPSocket\FTPServerLinux\TCPLib.cpp(25,36): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+C:\Users\dumbx\source\repos\Assignment1TCPSocket\FTPServerLinux\TCPLib.cpp(25,36): warning :    25 |                 if((numSent = write(socket, (char*)buffer + totalBytesSent, buffSize - totalBytesSent)) < 0)
+C:\Users\dumbx\source\repos\Assignment1TCPSocket\FTPServerLinux\TCPLib.cpp(25,36): warning :       |                               ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\dumbx\source\repos\Assignment1TCPSocket\FTPServerLinux\TCPLib.cpp(59,35): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+C:\Users\dumbx\source\repos\Assignment1TCPSocket\FTPServerLinux\TCPLib.cpp(59,35): warning :    59 |                 if((numRecv = read(socket, (char*)buffer + totalBytesRecv, buffSize - totalBytesRecv)) < 0)
+C:\Users\dumbx\source\repos\Assignment1TCPSocket\FTPServerLinux\TCPLib.cpp(59,35): warning :       |                               ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Linking objects
+  FTPServerLinux.vcxproj -> C:\Users\dumbx\source\repos\Assignment1TCPSocket\FTPServerLinux\bin\x64\Debug\FTPServerLinux.out
